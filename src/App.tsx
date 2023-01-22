@@ -35,7 +35,7 @@ function TwitterSquare() {
     }}>
       <input type="text" className='inputSquare' placeholder="@username" />
       <p>50 following</p>
-      <p>43 followees</p>
+      <p>44 followees</p>
       <img src="/twitter.png" />
     </div>
   )
