@@ -1,0 +1,47 @@
+input {
+    background-color: transparent;
+    width: 90vw;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.inputHorizontal {
+    height: 50vh;
+}
+
+p {
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.inputSquare {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    width: 80vw;
+    font-size: 16px;
+    margin-top: 10px;
+}
+img {
+    position: absolute;
+    right: 15px;
+    bottom: -15px;
+}
+input:focus {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+}
